@@ -57,6 +57,18 @@ You can configure environment variables in .env or inside docker-compose.yml:
 
 - ACCESS_TOKEN_EXPIRE_MINUTES: Token expiration time
 
+
+## Testing Users
+You can use the following test accounts to authenticate and try out the application:
+
+User1:
+ - Username: cjtest123
+ - Password: secret123
+
+User2:
+ - Username: usertest2
+ - Password: secret123
+
 ___
 
 # Development
@@ -112,7 +124,6 @@ ___
 
 # API Documentation
 
-The backend API is built with FastAPI, which automatically generates interactive API documentation.
 
 ### Accessing the API docs
 Once the backend server is running (by default on http://localhost:8000), you can access the documentation at:

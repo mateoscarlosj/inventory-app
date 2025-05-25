@@ -12,19 +12,19 @@ def seed_data()-> None:
     db.commit()
 
     user1 = User(
-        username="cjmateos1",
+        username="cjtest123",
         firstname="CJ",
-        lastname="Mateos",
+        lastname="Mat",
         email="cj@example.com",
         password=get_password_hash("secret123")
     )
 
     user2 = User(
-        username="janedoe",
-        firstname="Jane",
-        lastname="Doe",
-        email="jane@example.com",
-        password=get_password_hash("password123")
+        username="usertest2",
+        firstname="User",
+        lastname="1",
+        email="user1e@example.com",
+        password=get_password_hash("secret123")
     )
 
     db.add_all([user1, user2])
